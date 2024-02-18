@@ -333,6 +333,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="emojiResultLabel" destination="Fx3-j0-mnV" id="JBW-2J-Lez"/>
+                        <outlet property="textResultLabel" destination="XyJ-jp-ZBi" id="B5A-q1-z7K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yHh-SV-vnd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
